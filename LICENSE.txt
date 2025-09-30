@@ -1,0 +1,36 @@
+TEMPORARY RESEARCH LICENSE FOR PEER REVIEW
+=========================================
+1. GRANT OF RIGHTS
+------------------
+The copyright holders grant you, the reviewer, a non-exclusive, non-transferable, 
+revocable license to:
+   a) Access and use the code solely for peer review of the manuscript 
+      entitled "Enabling Generalizable Lithium-Ion Battery State of Health Estimation with Limited Labels via Weakly Supervised Pre-Training" 
+   b) Reproduce the results of the manuscript
+
+2. RESTRICTIONS
+---------------
+You MAY NOT:
+   a) Distribute, publish, or share the code in any form
+   b) Create derivative works based on this code
+   c) Use the code for commercial purposes or non-review research
+
+3. DURATION
+------------
+This license terminates automatically upon:
+   a) Official acceptance/rejection notification
+   b) Manuscript withdrawal by authors
+
+4. DISCLAIMER
+-------------
+THE CODE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE
+COPYRIGHT HOLDERS BE LIABLE FOR DAMAGES ARISING FROM UNAUTHORIZED USE.
+
+5. POST-ACCEPTANCE TERMS
+-------------------------
+Upon official acceptance:
+   a) This temporary license will be replaced by MIT License
+   b) Public release will occur at Github
+   c) Citation requirements will be activated
+
+© 2025 Hongsheng Guan. All rights reserved.
