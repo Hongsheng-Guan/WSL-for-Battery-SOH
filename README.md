@@ -1,5 +1,5 @@
 # WSL for battery SOH estimation
-This code is for our paper: Enabling Generalizable Lithium-Ion Battery State of Health Estimation with Minimal Labels via Weakly Supervised Pre-Training.
+This code is for our paper: Enabling Generalizable State of Health Estimation of Lithium-Ion Batteries with Extremely Minimal Labels via Weakly Supervised Learning.
 > **⚠️ IMPORTANT NOTICE**  
 > This repository contains code submitted for peer review.  
 > **DO NOT DISTRIBUTE OR USE THIS CODE** until the paper is officially accepted.  
@@ -11,16 +11,17 @@ The raw data for our in-house developed Datasets 1 and 2 are publicly available 
 `./results` holds the **source data, model parameters and training losses** in our paper.
 
 ## Quick Start
-### Prerequisites
-Python 3.8+, PyTorch 1.10+， numpy 1.22+, pandas 2.0+, scikit-learn 1.5+
-
-### Demo
 We provide a detailed demo of our code running.
 - `soh_individual_dataset.py`: The pipeline of "SOH estimation within each individual dataset".
-- `soh_cross_laboratory_datasets.py`: The pipeline of "Validation from the six laboratory datasets".
-- `soh_pretraining_ev_data.py`: The pipeline of "Validation from real-world driving data of electric vehicles".
-- `comparison_methods_with_limited_labels.py`: The pipeline of "Comparison with supervised/semi-supervised methods in scenarios of extremely limited labels".
-- `comparison_methods_with_enough_labels.py`: The pipeline of "Comparison with supervised methods in scenarios of sufficient single-condition labels" and "Comparison with supervised methods in scenarios of sufficient full-condition labels".
-- `comparison_methods_benchmark_tl.py`: The pipeline of "Comparison with transfer learning in scenarios of sufficient labels for the source dataset".
-- `pretraining_samples_effect.py` and `fine_tuning_samples_effect.py`: The pipeline of "Effect of the pre-training and fine-tuning data sizes".
+- `soh_cross_laboratory_datasets.py`: The pipeline of "Validation by six laboratory datasets".
+- `soh_pretraining_ev_data.py` and `soh_estimation_on_field_data.py`: The pipeline of "Validation by real-world driving data of electric vehicles".
+- `comparison_methods_with_limited_labels.py`: The pipeline of "Comparison to supervised and semi-supervised methods in scenarios with minimal labels".
+- `comparison_methods_with_enough_labels.py`: The pipeline of "Comparison to supervised methods in scenarios with sufficient single-condition labels".
+- `comparison_methods_benchmark_tl.py`: The pipeline of "Comparison to transfer learning in scenarios with sufficient labels for source dataset".
+- `knowledge_learned_by_the_DNN.py`: The pipeline of "Knowledge learned by the DNN within the proposed WSL framework".
+- `pretraining_samples_effect.py`: The pipeline of "Impact of pre-training data volume".
+- `fine_tuning_samples_effect.py`: The pipeline of "Impact of fine-tuning data volume".
+- `random_six_samples_effect.py`: The pipeline of "Impact of stochastic fine-tuning of sample selection".
+- `voltage_window_effect.py`: The pipeline of "Sensitivity to input voltage window".
+- `ft_module_effect.py`: The pipeline of "Impact of fine-tuning strategy".
 - `plot_figs.ipynb`: Plotting based on source data(`./results`)
