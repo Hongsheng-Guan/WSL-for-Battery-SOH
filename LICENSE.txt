@@ -5,7 +5,7 @@ TEMPORARY RESEARCH LICENSE FOR PEER REVIEW
 The copyright holders grant you, the reviewer, a non-exclusive, non-transferable, 
 revocable license to:
    a) Access and use the code solely for peer review of the manuscript 
-      entitled "Enabling Generalizable Lithium-Ion Battery State of Health Estimation with Limited Labels via Weakly Supervised Pre-Training" 
+      entitled "Enabling Generalizable State of Health Estimation of Lithium-Ion Batteries with Extremely Minimal Labels via Weakly Supervised Learning" 
    b) Reproduce the results of the manuscript
 
 2. RESTRICTIONS
