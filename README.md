@@ -6,8 +6,8 @@ This code is for our paper: Enabling Generalizable State of Health Estimation of
 > Unauthorized use may compromise the review process.  
 
 ## Data description
-`./data` contains processed data for Datasets 1-7, which can be used directly for model training and validation.  
-The raw data for our in-house developed Datasets 1 and 2 are publicly available at [https://doi.org/10.5281/zenodo.15582113](https://doi.org/10.5281/zenodo.15582113). Datasets 3-7 are publicly available data from other laboratories: [Dataset 3](https://doi.org/10.35097/1947),[Dataset 4](https://doi.org/10.5281/zenodo.6379165), [Dataset 5](https://doi.org/10.57760/sciencedb.07456), [Dataset 6](https://www.batteryarchive.org/study_summaries.html), [Dataset 7](https://github.com/TengMichael/battery-charging-data-of-on-road-electric-vehicles).  
+`./data` contains processed data for Datasets 1-8, which can be used directly for model training and validation.  
+The raw data for our in-house developed Datasets 1 and 2 are publicly available at [https://doi.org/10.5281/zenodo.15582113](https://doi.org/10.5281/zenodo.15582113). Datasets 3-7 are publicly available data from other laboratories: [Dataset 3](https://doi.org/10.35097/1947),[Dataset 4](https://doi.org/10.5281/zenodo.6379165), [Dataset 5](https://doi.org/10.57760/sciencedb.07456), [Dataset 6](https://www.batteryarchive.org/study_summaries.html), [Dataset 7](https://github.com/TengMichael/battery-charging-data-of-on-road-electric-vehicles), [Dataset 8](http://ivstskl.changan.com.cn/?p=2697).  
 `./results` holds the **source data, model parameters and training losses** in our paper.
 
 ## Quick Start
