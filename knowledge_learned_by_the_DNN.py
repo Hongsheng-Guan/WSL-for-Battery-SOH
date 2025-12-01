@@ -110,7 +110,7 @@ def stratified_sampling(domain_labels,samples_per_domain=1500, random_state=42):
 
 def umap_plot():
     datasets = ['Dataset 1', 'Dataset 2', 'Dataset 3','Dataset 4', 'Dataset 5', 'Dataset 6']
-    fig_name = ['figS16_d1', 'figS17_d2', 'figS18_d3', 'figS19_d4', 'figS20_d5', 'fig6']
+    fig_name = ['figS17_d1', 'figS18_d2', 'figS19_d3', 'figS20_d4', 'figS21_d5', 'fig8']
     condition_code = {
             'Dataset 1': [1,2],
             'Dataset 2': [5,6,7],
