@@ -334,12 +334,12 @@ def get_mmd():
             mmd_results['mmd_of_benchmark'].append(f'{mmd:.5f}')
 
     mmd_df = pd.DataFrame(mmd_results)
-    mmd_df.to_csv('figs/fig6/mmd_result_to_fc1.csv',index=False)
+    mmd_df.to_csv('figs/fig8/mmd_result_to_fc1.csv',index=False)
     rmse_df = pd.DataFrame(soh_errors)
-    rmse_df.to_csv('figs/fig6/soh_errors.csv',index=False)
+    rmse_df.to_csv('figs/fig8/soh_errors.csv',index=False)
 
 if __name__ == "__main__":
-    # path_dir = 'figs/fig6'
+    # path_dir = 'figs/fig8'
     # if not os.path.exists(path_dir):
     #     os.makedirs(path_dir)
     # get_mmd()
