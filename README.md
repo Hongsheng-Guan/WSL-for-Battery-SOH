@@ -1,5 +1,5 @@
 # WSL for battery SOH estimation
-This code is for our paper: Enabling Generalizable State of Health Estimation of Lithium-Ion Batteries with Extremely Minimal Labels via Weakly Supervised Learning.
+This code is for our paper: Explainable State of Health Estimation of Lithium-Ion Batteries with Extremely Minimal Labels via Weakly Supervised Learning.
 > **⚠️ IMPORTANT NOTICE**  
 > This repository contains code submitted for peer review.  
 > **DO NOT DISTRIBUTE OR USE THIS CODE** until the paper is officially accepted.  
@@ -7,7 +7,7 @@ This code is for our paper: Enabling Generalizable State of Health Estimation of
 
 ## Data description
 `./data` contains processed data for Datasets 1-8, which can be used directly for model training and validation.  
-The raw data for our in-house developed Datasets 1 and 2 are publicly available at [https://doi.org/10.5281/zenodo.15582113](https://doi.org/10.5281/zenodo.15582113). Datasets 3-7 are publicly available data from other laboratories: [Dataset 3](https://doi.org/10.35097/1947),[Dataset 4](https://doi.org/10.5281/zenodo.6379165), [Dataset 5](https://doi.org/10.57760/sciencedb.07456), [Dataset 6](https://www.batteryarchive.org/study_summaries.html), [Dataset 7](https://github.com/TengMichael/battery-charging-data-of-on-road-electric-vehicles), [Dataset 8](http://ivstskl.changan.com.cn/?p=2697).  
+The raw data for our in-house developed Datasets 1 and 2 are publicly available at [https://doi.org/10.5281/zenodo.15582113](https://doi.org/10.5281/zenodo.15582113). Datasets 3-8 are publicly available data from other laboratories: [Dataset 3](https://doi.org/10.35097/1947),[Dataset 4](https://doi.org/10.5281/zenodo.6379165), [Dataset 5](https://doi.org/10.57760/sciencedb.07456), [Dataset 6](https://www.batteryarchive.org/study_summaries.html), [Dataset 7](https://github.com/TengMichael/battery-charging-data-of-on-road-electric-vehicles), [Dataset 8](http://ivstskl.changan.com.cn/?p=2697).  
 `./results` holds the **source data, model parameters and training losses** in our paper.
 
 ## Quick Start
@@ -22,6 +22,6 @@ We provide a detailed demo of our code running.
 - `pretraining_samples_effect.py`: The pipeline of "Impact of pre-training data volume".
 - `fine_tuning_samples_effect.py`: The pipeline of "Impact of fine-tuning data volume".
 - `random_six_samples_effect.py`: The pipeline of "Impact of stochastic fine-tuning of sample selection".
-- `voltage_window_effect.py`: The pipeline of "Sensitivity to input voltage window".
+- `voltage_window_effect.py`: The pipeline of "Sensitivity to voltage window".
 - `ft_module_effect.py`: The pipeline of "Impact of fine-tuning strategy".
 - `plot_figs.ipynb`: Plotting based on source data(`./results`)
