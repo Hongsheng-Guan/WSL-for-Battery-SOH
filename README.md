@@ -2,6 +2,7 @@
 This code is for our paper: Explainable State of Health Estimation of Lithium-Ion Batteries with Extremely Minimal Labels via Weakly Supervised Learning.
 
 > If you find this work useful, please consider citing our paper:
+
 > Qian, C., Guan, H., Xiao, Y., Wang, L., Ren, Y., Xia, Q., Yang, D., and Wang, Z. (2026). Explainable state of health estimation of lithium-ion batteries with extremely minimal labels via weakly supervised learning. eTransportation 29, 100623. https://doi.org/10.1016/j.etran.2026.100623.
 
 ## Data description
