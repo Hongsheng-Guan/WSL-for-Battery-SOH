@@ -25,3 +25,6 @@ We provide a detailed demo of our code running.
 - `voltage_window_effect.py`: The pipeline of "Sensitivity to voltage window".
 - `ft_module_effect.py`: The pipeline of "Impact of fine-tuning strategy".
 - `plot_figs.ipynb`: Plotting based on source data(`./results`)
+
+## License
+This project is licensed under the MIT License. See the `LICENSE.txt` file for details.
